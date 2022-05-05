@@ -12,6 +12,6 @@
 2. I would make curreny checking by dates(you would be able to see currency exchange by dates)
 3. Adaptive and CrossBrowser
 
-
+### the time I have spent to do the project is more than five hours
 
 <!-- I used in this project that technologies which I truely love and use in my own pet-projects. Thanks for apportunity it was nice experience for me and 1+ for pet-projects 😁. -->
