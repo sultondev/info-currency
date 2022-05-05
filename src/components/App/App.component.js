@@ -18,6 +18,7 @@ import TopImg from '../../assets/img/top-arrow.svg';
 // Configuring
 let currentDate = new Date().toISOString().split('T')[0];
 
+// For more information please read the file README.md
 function App() {
 	const [ baseCurrency, setBaseCurrency ] = useState('');
 	const [ allRates ] = useRecoilState(allRatesData);
