@@ -1,0 +1,36 @@
+@import '../variables.settings'
+  
+  
+.convertor
+
+  &-form
+    @include flex(space-between, center, column, wrap)
+
+  &-first, &-second
+    &__input
+      // Typography
+      font-size: var(--txt-caption)
+      color: var(--clr-white)
+      background: var(--clr-black)
+      // Innter style 
+      padding: 10px 14px
+      border-radius: 25px
+      border: none
+      margin: 10px 0
+
+
+      &:focus
+        outline: 3px solid var(--clr-blue)
+    &__select
+      // Typography
+      font-size: var(--txt-caption)
+      color: var(--clr-white)
+      // outer styles
+      margin-left: 4px
+      // Inner style
+      padding: 8px 
+      background: var(--clr-black)
+      border: none
+      outline: none
+      &:focus
+        outline: 3px solid var(--clr-blue)

@@ -1,0 +1,18 @@
+@import '../variables.settings'
+
+
+.currency
+  &-list
+    @include flex(space-between, center, column, wrap)
+    list-style: none
+    padding: 10px 0
+    &__item
+      @include flex(space-between, flex-start, row, wrap)
+      width: 40%
+      border-top: 1px solid black
+      border-bottom: 1px solid black
+      &:first-child
+        border-top: none
+      p
+        font-size: 18px
+        line-height: 60px

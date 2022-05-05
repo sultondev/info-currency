@@ -1,0 +1,22 @@
+\:root
+  --clr-white: #fff
+  --clr-black: #000
+  --clr-blue: #6200ff
+  // FontSize default 
+  --fs-default: 16px
+
+  // Text Caption size
+  --txt-caption: 18px
+
+  --dark-bg: rgb(19, 21, 27)
+  --dark-bg-2: rgb(18, 17, 19)
+
+
+
+@mixin flex($justify: none, $align: none, $r-c: none, $flex-w: none)
+  display: flex
+  justify-content: $justify
+  align-items: $align
+  flex-direction: $r-c
+  flex-wrap: $flex-w
+
