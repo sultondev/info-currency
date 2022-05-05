@@ -1,6 +1,6 @@
 # Hello, This is an interview test task project. But You can use my code as you want
 
-> ## What did I used for this project
+> ## What did I use for this project
 
 - [Foreign Exchange Free API](https://exchangerate.host/#/#docs)
 - [Recoil JS for State managment](https://recoiljs.org)
