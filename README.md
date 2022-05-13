@@ -11,6 +11,7 @@
 1. I would use StyledComponents
 2. I would make curreny checking by dates(you would be able to see currency exchange by dates)
 3. Adaptive and CrossBrowser
+4. Add localStorage for remembering which buttons were clicked and save them.
 
 ### the time I have spent to do the project is more than five hours
 
